@@ -7,10 +7,12 @@
 </head>
 <body>
   <h1>EveryDay Git</h1>
+  <hr>
   <h2>1.What is Git</h2>
-  <p>Git is a free, open-source version control system (VCS) that helps developers track and manage changes to their code. Git is a widely used, distributed version control system that allows developers to track changes made to code over time, enabling them to revert to previous versions, collaborate effectively, and manage different variations of a project simultaneously, all by maintaining local copies of the codebase and periodically syncing them with a central repository.</p>
-  <p>A version control system (VCS) is a software tool that allows developers to track and manage changes made to files over time, essentially keeping a record of every modification to a project, including who made the change, when it was made, and what specific alterations were done, enabling collaboration on the same files without conflicts within a team. </p>
-  <p>Other control versions like Git include Apache, Perforce and Subversion. However, Git stands out due to its unique features, flexibility and wide spread adoption.</p>
+  <p> >Git is a free, open-source version control system (VCS) that helps developers track and manage changes to their code. <br> >Git is a widely used, distributed version control system that allows developers to track changes made to code over time, enabling them to revert to previous versions, collaborate effectively, and manage different variations of a project simultaneously, all by maintaining local copies of the codebase and periodically syncing them with a central repository.</p>
+  <p>>A version control system (VCS) is a software tool that allows developers to track and manage changes made to files over time, essentially keeping a record of every modification to a project, including who made the change, when it was made, and what specific alterations were done, enabling collaboration on the same files without conflicts within a team. </p>
+  <p>>Other control versions like Git include Apache, Perforce and Subversion. However, Git stands out due to its unique features, flexibility and wide spread adoption.</p>
+  <hr>
 
   <h2>2.Installing Git</h2>
   <p>To check whether git is installed or not on your readers machine, open terminal type git --  version. </p>
@@ -27,7 +29,7 @@
     <li>Now use the git --version on your terminal to confirm whether git was installed successfully.</li>
     <li>4.	If a version number is returned, git is successfully installed on your system.</li>
   </ol>
-  
+  <hr>
   <h2>3.Configuring Git</h2>
   <h3>The following is the process of configuring the username of your git.</h3>
   <ol>
@@ -45,7 +47,7 @@
   <figure>
     <img src="./img/user-email.png" alt="git user email" width="500" loading="lazy">
   </figure>
-
+<hr>
   <h2>4.Initializing a Git Repository</h2>
   <p>A Git repository is a centralized location where all versions of a project's files are stored and tracked, allowing developers to manage changes to their code over time, essentially creating a history of edits within a project, all managed by the Git version control system; it is essentially a folder within a project containing a hidden ".git" directory which holds all the versioning information about the files within that project.</p>
   <h3>To Initialize a Git Repository:</h3>
@@ -56,8 +58,8 @@
 <figure>
   <img src="./img/git-init.png" alt="git init" width="500" loading="lazy">
 </figure>
-<p>The command will initialize a git repository in the project folder, this is where git will track and manage changes to files in your project. Initializing a git is done once per project. Running git init in a project that contains a git repository will make git initialize a repository within a repository. </p>
-
+<p>The command will initialize a git repository in the project folder, this is where git will track and manage changes to files in your project. <br> Initializing a git is done once per project. Running git init in a project that contains a git repository will make git initialize a repository within a repository. </p>
+<hr>
 
   <h2>5.Adding Files to the Staging Area</h2>
   <p>In Git, the staging area also known as the index is an intermediate space where you can organize changes before committing them to the repository.</p>
@@ -82,9 +84,9 @@
     </li>
   </ul>
 
-
+<hr>
   <h2>6.Commiting Changes</h2>
-  <p>A commit in git is basically a snapshot of your project at a particular point in time. Commits work when there are changes in the staging area. A good commit message should be written in present tense. One should also ensure the commit message sufficiently explains the code.</p>
+  <p>A commit in git is basically a snapshot of your project at a particular point in time. Commits work when there are changes in the staging area. <br> A good commit message should be written in present tense. One should also ensure the commit message sufficiently explains the code.</p>
   <h3>Committing changes in a git repository.</h3>
   <ul>
     <li>
@@ -99,16 +101,16 @@
       </figure>
     </li>
   </ul>
-
+<hr>
   <h2>7.Branches</h2>
   <p>In Git, a "branch" is essentially a pointer to a specific commit within a repository allowing developers to work on different versions of code simultaneously without affecting the main codebase; it acts like a separate line of development that can be created, merged, and deleted as needed, enabling parallel work on features or bug fixes.</p>
-
+<hr>
   <h2>8.Creating a Branch</h2>
   <p>To create a branch we use the command git branch BRANCH_NAME</p>
   <figure>
     <img src="./img/create-branch.png" alt="create branch" width="500" loading="lazy">
   </figure>
-
+<hr>
   <h2>9.Viewing all Branches</h2>
   <p>To view the existing branches in a repository, use the commands git branch. The active branch will have a little asterisk symbol (*) besides it and it will be green in some command line interfaces. </p>
   <figure>
@@ -119,22 +121,22 @@
   <figure>
     <img src="./img/switch-branch.png" alt="switch branch" width="500" loading="lazy">
   </figure>
-
+<hr>
   <h2>11.Merging a Branch</h2>
-  <p>First switch to the branch we want to merge the current branch. For instance we start by switching to the main branch. use the command git merge BRANCH_NAME</p>
+  <p>First switch to the branch we want to merge the current branch. <br> For instance we start by switching to the main branch. use the command git merge BRANCH_NAME</p>
   <figure>
     <img src="./img/git-merge.png" alt="merge branch" width="500" loading="lazy">
   </figure>
-
+<hr>
   <h2>12.Deleting a Branch</h2>
   <p>To delete a branch, we use the git branch command and pass the -d flag.</p>
   <p>Git branch -d BRANCH_NAME</p>
   <figure>
     <img src="./img/Delete-branch.png" alt="delete branch" width="500" loading="lazy">
   </figure>
-
+<hr>
   <h2>13.Next Steps</h2>
-  <p>As a git expert, it is recommended to learn about GitHub. Learning GitHub is useful for developers, because it helps with collaboration, version control, and code management. It can also help you participate in community-driven software development.</p>
+  <p>As a git expert, it is recommended to learn about GitHub. Learning GitHub is useful for developers, because it helps with collaboration, version control, and code management. <br> It can also help you participate in community-driven software development.</p>
   
 </body>
 </html>
